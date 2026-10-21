@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aurora Cafe" />
+    <meta
+      name="keywords"
+      content="aurora, cafe, coffee, drink, chocolate, food, hamburger, salad, salmon"
+    />
+    <meta name="author" content="Samer Daghestani" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Aurora Cafe & Bistro" />
+    <meta
+      property="og:description"
+      content="Visit Aurora Cafe and take your favorite food !"
+    />
+    <meta property="og:type" content="website" />
+    <title>Aurora Café & Bistro</title>
+    <link rel="icon" href="images/icons/logo.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header
+      class="header position-fixed top-0 left-0 w-100 d-flex align-items-center justify-content-between"
+    >
+      <a
+        href="#home"
+        class="text-decoration-none d-flex align-items-center gap-3"
+      >
+        <span class="brand-icon rounded-5 d-grid fw-bold fs-3">A</span>
+        <span>
+          <strong>AURORA</strong>
+          <small>Café & Bistro</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav d-flex gap-5 fs-5 fw-semibold">
+        <a href="#home" class="text-decoration-none position-relative">Home</a>
+        <a href="#about" class="text-decoration-none position-relative"
+          >About Us</a
+        >
+        <a href="#menu" class="text-decoration-none position-relative">Menu</a>
+        <a href="#contact" class="text-decoration-none position-relative"
+          >Contact Us</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section d-grid align-items-center gap-5">
+        <div class="hero-content reveal">
+          <span class="eyebrow mb-2 text-uppercase fw-bold"
+            >Welcome to Aurora</span
+          >
+          <h1 class="fw-bold">
+            Good Food<br />Good <span>Mood</span><br />Every Time
+          </h1>
+          <p>
+            Enjoy a perfect blend of delicious food, cozy ambience, and
+            unforgettable moments.
+          </p>
+          <a
+            href="#menu"
+            class="btn text-decoration-none align-items-center justify-content-center rounded-5 fw-bold text-uppercase"
+            >Explore Menu</a
+          >
+        </div>
+
+        <div class="hero-image reveal">
+          <img
+            src="images/dicor.avif"
+            loading="lazy"
+            alt="Luxury restaurant interior"
+            class="w-100"
+          />
+        </div>
+      </section>
+
+      <section class="w-100 special section">
+        <div class="section-heading reveal text-center mb-5">
+          <span class="eyebrow mb-2 text-uppercase fw-bold">Our Special</span>
+          <h2 class="fw-bold">Signature <span>Dishes</span></h2>
+        </div>
+
+        <div class="dish-grid d-grid gap-3">
+          <article class="dish-card reveal">
+            <img
+              src="images/pasta.avif"
+              alt="Pasta dish"
+              loading="lazy"
+              class="w-100"
+            />
+            <h3>Creamy Pasta</h3>
+            <p>Rich sauce, fresh herbs, and premium ingredients.</p>
+          </article>
+          <article class="dish-card reveal delay-1">
+            <img
+              src="images/ham.avif"
+              alt="Steak dish"
+              loading="lazy"
+              class="w-100"
+            />
+            <h3>Grilled Steak</h3>
+            <p>Perfectly grilled with seasonal vegetables.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about w-100 section d-grid align-items-center">
+        <div class="about-text reveal">
+          <span class="eyebrow mb-2 text-uppercase fw-bold">About Us</span>
+          <h2 class="fw-bold">Our <span>Story</span></h2>
+          <p>
+            Aurora Café & Bistro is more than just a place to eat. It is a place
+            to feel good, connect, and create memories.
+          </p>
+          <p>
+            We serve high-quality food in a warm, elegant, and welcoming
+            atmosphere.
+          </p>
+          <a
+            href="#contact"
+            class="btn btn-outline text-decoration-none align-items-center justify-content-center rounded-5 fg-white fw-bold text-uppercase"
+            >Contact Us</a
+          >
+        </div>
+
+        <div
+          class="about-image reveal delay-1 d-flex align-items-center justify-content-center"
+        >
+          <img
+            src="images/cafe.avif"
+            alt="Restaurant table ambience"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="features reveal delay-2 d-grid ms-2">
+          <div class="d-grid text-center gap-1">
+            <span>☘</span><strong>Fresh Ingredients</strong>
+          </div>
+          <div class="d-grid text-center gap-1">
+            <span>☕</span><strong>Cozy Atmosphere</strong>
+          </div>
+          <div class="d-grid text-center gap-1">
+            <span>♨</span><strong>Expert Chefs</strong>
+          </div>
+          <div class="d-grid text-center gap-1">
+            <span>★</span><strong>Great Experience</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="menu section">
+        <div class="section-heading reveal text-center mb-5">
+          <span class="eyebrow mb-2 text-uppercase fw-bold">Our Menu</span>
+          <h2 class="fw-bold">Our Delicious <span>Menu</span></h2>
+        </div>
+
+        <div
+          class="tabs reveal d-flex justify-content-center flex-wrap gap-5 mb-3"
+        >
+          <button
+            class="active rounded-4 fw-bold text-uppercase text-black"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button
+            data-filter="breakfast"
+            class="rounded-4 fw-bold text-uppercase text-black"
+          >
+            Breakfast
+          </button>
+          <button
+            data-filter="main"
+            class="rounded-4 fw-bold text-uppercase text-black"
+          >
+            Main Course
+          </button>
+          <button
+            data-filter="drinks"
+            class="rounded-4 fw-bold text-uppercase text-black"
+          >
+            Drinks
+          </button>
+        </div>
+
+        <div class="menu-list d-grid gap-5">
+          <article
+            class="menu-item reveal d-grid gap-2 align-items-center p-5"
+            data-category="main"
+          >
+            <img
+              src="images/salmon.avif"
+              alt="Grilled salmon"
+              loading="lazy"
+              class="rounded-4"
+            />
+            <div>
+              <h3>Grilled Salmon</h3>
+              <p>Fresh salmon with herbs and seasonal vegetables.</p>
+              <strong class="mt-2 fs-5">$18.99</strong>
+            </div>
+          </article>
+
+          <article
+            class="menu-item reveal d-grid gap-2 align-items-center p-5"
+            data-category="main"
+          >
+            <img
+              src="images/pasta.avif"
+              alt="Creamy pasta"
+              loading="lazy"
+              class="rounded-4"
+            />
+            <div>
+              <h3>Creamy Pasta</h3>
+              <p>Pasta in a rich creamy sauce with mushrooms and chicken.</p>
+              <strong class="mt-2 fs-5">$14.99</strong>
+            </div>
+          </article>
+
+          <article
+            class="menu-item reveal d-grid gap-2 align-items-center p-5"
+            data-category="main"
+          >
+            <img
+              src="images/hamburger.avif"
+              alt="Classic burger"
+              loading="lazy"
+              class="rounded-4"
+            />
+            <div>
+              <h3>Classic Burger</h3>
+              <p>
+                Beef burger with cheese, lettuce, tomato, and special sauce.
+              </p>
+              <strong class="mt-2 fs-5">$12.99</strong>
+            </div>
+          </article>
+
+          <article
+            class="menu-item reveal d-grid gap-2 align-items-center p-5"
+            data-category="breakfast"
+          >
+            <img
+              src="images/toast.avif"
+              alt="Breakfast toast"
+              loading="lazy"
+              class="rounded-4"
+            />
+            <div>
+              <h3>Golden Toast</h3>
+              <p>Crispy toast with honey, fruits, and fresh cream.</p>
+              <strong class="mt-2 fs-5">$9.99</strong>
+            </div>
+          </article>
+
+          <article
+            class="menu-item reveal d-grid gap-2 align-items-center p-5"
+            data-category="drinks"
+          >
+            <img
+              src="images/drink.avif"
+              alt="Iced coffee"
+              loading="lazy"
+              class="rounded-4"
+            />
+            <div class="ms-5">
+              <h3>Iced Coffee</h3>
+              <p>Chilled coffee with a smooth and refreshing taste.</p>
+              <strong class="mt-2 fs-5">$4.99</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="contact section d-grid gap-3 align-items-center"
+      >
+        <div class="contact-info reveal">
+          <span class="eyebrow mb-2 text-uppercase fw-bold">Contact Us</span>
+          <h2 class="fw-bold">We’d Love to<br />Hear From <span>You</span></h2>
+
+          <ul>
+            <li>
+              <span>
+                <i class="fa-solid fa-square-phone fs-4"></i>
+              </span>
+              <a href="tel:+96181747602" class="text-decoration-none fw-bold"
+                >+961 81 747 602</a
+              >
+            </li>
+            <li>
+              <span>
+                <i class="fa-solid fa-envelope fs-4"></i>
+              </span>
+              <a
+                href="mailto:hello@auroracafe.com"
+                class="text-decoration-none fw-bold"
+                >hello@auroracafe.com</a
+              >
+            </li>
+            <li class="fw-bold">
+              <span>
+                <i class="fa-solid fa-alarm-clock fs-4"></i>
+              </span>
+              Mon - Sun: 8:00 AM - 11:00 PM
+            </li>
+          </ul>
+
+          <div class="socials d-flex">
+            <a href="#" class="text-decoration-none fw-bold rounded-5"
+              >Instagram</a
+            >
+            <a href="#" class="text-decoration-none fw-bold rounded-5"
+              >Facebook</a
+            >
+            <a href="#" class="text-decoration-none fw-bold rounded-5"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+
+        <div class="map-card reveal delay-1 p-5">
+          <span class="eyebrow mb-2 text-uppercase fw-bold">Our Location</span>
+          <iframe
+            class="w-100 rounded-4"
+            title="Google Map"
+            src="https://www.google.com/maps?q=Tripoli%20Lebanon&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+          <a
+            class="btn w-100 mt-2 map-btn text-decaration-none align-items-center justify-content-center rounded-5 fg-white fw-bold text-uppercase"
+            target="_blank"
+            href="https://www.google.com/maps/search/?api=1&query=Tripoli+Lebanon"
+            >Get Directions</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center">
+      <p class="text-white fs-small">
+        © 2026 Aurora Café & Bistro. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
